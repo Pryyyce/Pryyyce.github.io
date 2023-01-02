@@ -18,36 +18,31 @@ p
  text-align: right;
 }
 
-
 .rainbow {
   
 
-   text-shadow: 32px 32px 34px #000000;
-   font-size:40px;
-   
-    /* Chrome, Safari, Opera */
-   -webkit-animation: rainbow 5s infinite; 
-   
-   /* Internet Explorer */
-   -ms-animation: rainbow 5s infinite;
-   
-   /* Standar Syntax */
-   animation: rainbow 5s infinite; 
- }
+    text-shadow: 2px 2px 2px #00000;
+    font-size:40px;
+       
+     background-image: 
+       linear-gradient(90deg, red,green,blue);
+     background-clip: text;
+     color: transparent;
+    
+    /* Standar Syntax */
+    animation: rainbow 5s infinite; 
+  }
+  
  
-
- 
- /* Standar Syntax */
- @keyframes rainbow{
-     0%{color: orange;}	
-   10%{color: purple;}	
-     20%{color: red;}
-   30%{color: CadetBlue;}
-     40%{color: yellow;}
-   50%{color: coral;}
-     60%{color: green;}
-   70%{color: cyan;}
-   80%{color: DeepPink;}
-   90%{color: DodgerBlue;}
-     100%{color: orange;}
- }
+  
+  /* Standar Syntax */
+  @keyframes rainbow{
+    0%
+    {
+    filter :hue-rotate(0deg)
+    }
+    100%
+    {
+    filter :hue-rotate(1080deg)
+    }
+  }
