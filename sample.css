@@ -54,7 +54,8 @@ p
   
  .button{
   font-size:large;
-  class=rainbow;
+  display:inline-block;
+  padding: 0.5em
  }
   
   /* Standar Syntax */
