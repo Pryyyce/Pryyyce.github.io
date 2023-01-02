@@ -1,11 +1,15 @@
 
-
+.ram
+{
+  
+}
 .thr
 {
-  height: 3px;
+  position:relative; top:50px;
+  height: 2px;
   background-color: darkblue;
   border: none;
-  animation: thr 1s infinite
+  animation: thr 8s infinite
 }
 @keyframes thr
 {
@@ -19,13 +23,14 @@
  body 
 {
  
-     background-image: linear-gradient(90deg, #A1C9F7,rgb(245, 140, 171));
+     background-image: linear-gradient(270deg, #A1C9F7,rgb(245, 140, 171));
      background-color: aquamarine;
 
 }
-h1
+h2
 {
  text-align: center;
+ position:relative; top:20px;
 
 }
 p
@@ -47,7 +52,10 @@ p
     animation: rainbow 5s infinite; 
   }
   
- 
+ .button{
+  font-size:large;
+  class=rainbow;
+ }
   
   /* Standar Syntax */
   @keyframes rainbow{
