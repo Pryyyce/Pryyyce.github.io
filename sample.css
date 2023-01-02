@@ -1,10 +1,25 @@
 
 
-
+.thr
+{
+  height: 3px;
+  background-color: darkblue;
+  border: none;
+  animation: thr 1s infinite
+}
+@keyframes thr
+{
+0% {background-color:red;}
+20% {background-color:yellow;}
+40% {background-color:green;}
+60% {background-color:blue;}
+80% {background-color:violet;}
+100% {background-color:red;}
+}
  body 
 {
  
-     background-image: url("chungus.jpeg");
+     background-image: linear-gradient(90deg, #A1C9F7,rgb(245, 140, 171));
      background-color: aquamarine;
 
 }
@@ -24,8 +39,7 @@ p
     text-shadow: 2px 2px 2px #00000;
     font-size:40px;
        
-     background-image: 
-       linear-gradient(90deg, red,green,blue);
+     background-image: linear-gradient(90deg, red,green,blue);
      background-clip: text;
      color: transparent;
     
