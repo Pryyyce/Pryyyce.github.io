@@ -1,0 +1,108 @@
+
+body{
+    
+    background-image:linear-gradient(80deg,blue,pink);
+   
+}
+header{
+    
+    text-align: center;
+    
+    margin:0px;
+    width:1024px
+    background-color:aquamarine;
+    color:blue;
+    font-family: Impact, sans-serif;
+    font-size:2cm;
+    
+    animation-name:bgcol;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+    @keyframes bgcol{
+        0% {background-color:aquamarine;}
+        25% {background-color:blue;}
+        50% {background-color:pink;}
+        75% {background-color:yellow;}
+        100% {background-color:aquamarine;}
+        0% {color:pink;}
+        25% {color:yellow;}
+        50% {color:aquamarine;}
+        75% {color:blue;}
+        100% {color:pink;}
+    }
+
+.fardown{
+    position:relative;
+    top:2048px;
+}
+.mpbody{
+    position: fixed;
+   
+    right: 0;
+    left: 0;
+
+    margin-top:50px;
+    margin-right: auto;
+    margin-left: auto;
+    height:500px;
+    max-width: 1024px;
+    background-image: linear-gradient(0deg,rgb(99, 171, 249),rgb(213, 213, 157));
+    animation: rgl linear .3s infinite;
+  
+}
+@keyframes rgl{
+ 
+  10%  {background-image:linear-gradient(36deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+  20%  {background-image:linear-gradient(72deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+  30%  {background-image:linear-gradient(108deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+  40%  {background-image:linear-gradient(144deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+  50%  {background-image:linear-gradient(180deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+  60%  {background-image:linear-gradient(216deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+  70%  {background-image:linear-gradient(252deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+  80%  {background-image:linear-gradient(288deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+  90%  {background-image:linear-gradient(324deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+
+}
+@keyframes rglr{
+ 
+    90%  {background-image:linear-gradient(36deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+    80%  {background-image:linear-gradient(72deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+    70%  {background-image:linear-gradient(108deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+    60%  {background-image:linear-gradient(144deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+    50%  {background-image:linear-gradient(180deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+    40%  {background-image:linear-gradient(216deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+    30%  {background-image:linear-gradient(252deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+    20%  {background-image:linear-gradient(288deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+    10%  {background-image:linear-gradient(324deg,rgb(99, 171, 249),rgb(213, 213, 157));}
+  
+  }
+.SubHeading{
+
+    display:flex;
+    background-image:linear-gradient(90deg,pink,blue);
+    background-clip: text;
+    color:transparent;
+    justify-content: center;
+    font-family: Impact, sans-serif;
+    margin-top:20px;
+    font-size:1cm;
+
+}
+.SubHeadingcont{
+    background-image:linear-gradient(90deg,pink,blue);
+    
+    background-clip: text;
+    color:transparent;
+    margin-top:3px;
+    display:flex;
+    justify-content: center;
+    font-family: Impact, sans-serif;
+    font-size: 1cm
+    
+    
+}
+.BodyText{
+    font-family: ;
+}
+
