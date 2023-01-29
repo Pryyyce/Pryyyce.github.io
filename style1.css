@@ -1,6 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/17363ed78e2b5e259e228bad72318a1f?family=American+Typewriter);
 .Title{
     background-image: linear-gradient(270deg,#CA6B03,#ED9B07);
-    position:sticky;
+    
     border-radius: 20px;
     Right:0;
     Left:0;
@@ -20,7 +21,6 @@
 }
 .Subtitle{
     background-image: linear-gradient(270deg,#ED9B07,#FADE9D);
-    position:sticky;
     border-radius: 100px;
     Right:0;
     Left:0;
@@ -39,7 +39,7 @@
     
 }
 .texdiv{
-    position:relative;
+    
     border-radius: 100px;
     Right:0;
     Left:0;
@@ -51,13 +51,13 @@
     color:#214A60;
     background-image: linear-gradient(90deg,#F4BD52,#ED9B07);
     margin-top:10px;
-    padding-top:20px;
+    padding-top:40px;
     padding-left:50px;
     Padding-right:50px;
     padding-bottom:50px;
     margin-left:auto;
     margin-right:auto;
-    font-family: Arial black,system-ui;
+    font-family: Arial black,"American Typewriter",system-ui;
     font-size:.75cm;
 }
 ul{
@@ -83,6 +83,24 @@ li{
     background-image: linear-gradient(90deg,#ED9B07,#DC8305);
 }
 .table{
+    position:sticky;
+    
     display:table;
     margin: 0 auto;
+    
+}
+table{
+    border-radius: 20px;
+    border-collapse: collapse;
+    background-image:linear-gradient(90deg,#F2B33D,#ED9D0D);
+    display:table;
+    margin:0 auto;
+    margin-top:10px;
+    
+}
+td,th{
+    border: 5px solid #1D4358;
+}
+tr:nth-child(even){
+    background-image:linear-gradient(90deg,#F4BB4E,#F5C360)
 }
