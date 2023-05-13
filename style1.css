@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/17363ed78e2b5e259e228bad72318a1f?family=American+Typewriter);
+
 .Title{
     background-image: linear-gradient(270deg,#CA6B03,#ED9B07);
     
@@ -57,7 +57,7 @@
     padding-bottom:50px;
     margin-left:auto;
     margin-right:auto;
-    font-family: Arial black,"American Typewriter",system-ui;
+    font-family: Arial black,system-ui;
     font-size:.75cm;
 }
 ul{
