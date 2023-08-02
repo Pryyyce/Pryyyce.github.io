@@ -1,0 +1,85 @@
+.site_Background{
+    display: flex;
+    flex-direction: column;
+    opacity:1;
+    background-size:100%;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    animation-name:scrollBack;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    background-image:url(images/website_Background_2.png); 
+  
+    
+}
+@keyframes scrollBack {
+    from {background-position-y: 0px;}
+    to {background-position-y: 7000px;}
+}
+
+img{
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.projects__button{
+    content: url(images/projects_base.png);
+    width:30%;
+    padding-left: 15%;
+    padding-top:5%
+}
+.projects__button:hover{
+    content: url(images/projects_onHover.png);
+    width:30%;
+    padding-left: 15%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+.aboutMe__button{
+    content: url(images/aboutMe.png);
+    width:30%;
+    padding-left: 15%;
+    padding-top:3%;
+}
+.aboutMe__button:hover{
+    content: url(images/aboutMe_onHover.png);
+    width:30%;
+    padding-left: 15%;
+    padding-top:2%;
+    padding-bottom: 1%;
+}
+.contact__button{
+    content: url(images/contactInfo.png);
+    width:30%;
+    padding-left: 15%;
+    padding-top:2%;
+   
+    
+}
+.contact__button:hover{
+    content: url(images/contactInfo_onHover.png);
+    width:30%;
+    padding-left: 15%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    
+}
+.resume__button{
+    content: url(images/resume.png);
+    width:30%;
+    padding-left: 15%;
+    padding-top:1%;
+    
+}
+.resume__button:hover{
+    content: url(images/resume_onHover.png);
+    width:30%;
+    padding-left: 15%;
+    padding-top:0%;
+    
+}
+
